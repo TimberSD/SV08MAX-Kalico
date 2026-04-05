@@ -69,6 +69,12 @@ primary_branch = main
 is_system_service = False
 managed_services = klipper
 
+[update_manager Katapult]
+type = git_repo
+path = ~/katapult
+origin = https://github.com/Arksine/katapult.git
+is_system_service = False
+
 [file_manager]
 enable_object_processing = True
 
